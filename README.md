@@ -2,7 +2,7 @@
 
 ```
 tf.random.set_seed(12345)
-    logistic_regression = build_logistic_regression(
+logistic_regression = build_logistic_regression(
                         input_size              = X_train.shape[1],
                         output_size             = 2,
                         special                 = False,
